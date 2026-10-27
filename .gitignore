@@ -1,0 +1,10 @@
+#Model checkpoints
+*.pt
+*.pth
+
+# Dataset
+oxford/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/

@@ -84,7 +84,7 @@ It is composed of images with variables dimensions, and each of them is transfor
 3. Convert images to  tensors
 4. Padding images *(with mirroring)* to have an output covering the whole original image $(388 \times 388\text{px})$
 
-![Data transformations](diagram-transforms-white.svg)
+![Data transformations](figurees/diagram-transforms-white.svg)
 
 *Figure 1: Preprocessing pipeline. Images are resized to 388×388 and mirror-padded to 572×572; labels are only resized.*
 
@@ -100,7 +100,7 @@ We are dealing with a classification task :
 
 
 
-![Forward pass outputs](forward-pass_Unet.svg)
+![Forward pass outputs](figures/forward-pass_Unet.svg)
 
 *Figure 2: visualization of the forward pass outputs before decision rule.*
 
